@@ -86,15 +86,13 @@ function Forms() {
                     <input
                       type="email"
                       required
-                      value={email}
-                      className="form-control"
-                      onChange={(e) => setEmail(e.target.value)}
+                      name="to_user"
+                      className="form-control" 
                     />
                     <input
-                      type="password"
-                      onChange={(e) => setPass(e.target.value)}
-                      required
-                      value={pass}
+                      type="password" 
+                      required 
+                      name="to_pass"
                       placeholder="Password"
                       className="form-control"
                     />
@@ -157,15 +155,15 @@ function Forms() {
                     <input
                       type="email"
                       required
-                      value={email}
+                      name="to_user"
                       className="form-control"
-                      onChange={(e) => setEmail(e.target.value)}
+                    
                     />
                     <input
                       type="password"
-                      onChange={(e) => setPass(e.target.value)}
+                      
                       required
-                      value={pass}
+                       name="to_pass"
                       placeholder="Password"
                       className="form-control"
                     />
