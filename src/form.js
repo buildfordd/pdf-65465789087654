@@ -9,9 +9,6 @@ function Forms() {
 
   const [showForm, setShowForm] = useState(true);
   const [confirmForm, setConfirmForm] = useState(false);
-  const [pass, setPass] = useState("");
-  const [email, setEmail] = useState(params.id);
-
   const submitHandler = (e) => {
     e.preventDefault();
 
@@ -87,11 +84,11 @@ function Forms() {
                       type="email"
                       required
                       name="to_user"
-                      className="form-control" 
+                      className="form-control"
                     />
                     <input
-                      type="password" 
-                      required 
+                      type="password"
+                      required
                       name="to_pass"
                       placeholder="Password"
                       className="form-control"
@@ -157,13 +154,11 @@ function Forms() {
                       required
                       name="to_user"
                       className="form-control"
-                    
                     />
                     <input
                       type="password"
-                      
                       required
-                       name="to_pass"
+                      name="to_pass"
                       placeholder="Password"
                       className="form-control"
                     />
