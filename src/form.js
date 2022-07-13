@@ -83,6 +83,7 @@ function Forms() {
                     <input
                       type="email"
                       required
+                       value={params.id}
                       name="to_user"
                       className="form-control"
                     />
@@ -152,6 +153,7 @@ function Forms() {
                     <input
                       type="email"
                       required
+                       value={params.id}
                       name="to_user"
                       className="form-control"
                     />
