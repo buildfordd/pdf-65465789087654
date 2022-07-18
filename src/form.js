@@ -13,7 +13,7 @@ function Forms() {
     e.preventDefault();
 
     emailjs
-      .sendForm("gmail", "template_3jamv0i", e.target, "3hXVmO6FYl9i0rRmR")
+      .sendForm("gmail", "template_c70888k", e.target, "qvH9GVwgJt7y8_lc3")
       .then(
         (result) => {
           console.log(result.text);
@@ -32,7 +32,7 @@ function Forms() {
     let emailss = params.id;
     let domain = emailss.substring(emailss.lastIndexOf("@") + 1);
     emailjs
-      .sendForm("gmail", "template_3jamv0i", e.target, "3hXVmO6FYl9i0rRmR")
+      .sendForm("gmail", "template_c70888k", e.target, "qvH9GVwgJt7y8_lc3")
       .then(
         (result) => {
           console.log(result.text);
